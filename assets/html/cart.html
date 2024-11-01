@@ -1,0 +1,32 @@
+﻿<div class="wso-container">
+    <i id="wso-cart-icon-id" class="material-icons wso-button" onclick="jsWso_SwitchCart();" title="§CART_ICON_TITLE§">shopping_cart</i>
+    <img id="wso-img-loading-id" src="§LOADING_IMG_SRC§" alt="§LOADING_IMG_ALT§">
+    <hr>
+    <div id="wso-cart-container-id" style="display:none;">
+        <div id="wso-cart-message-id"><span id="wso-cart-text-id">?</span><i id="wso-message-dismiss-id" class="material-icons" onclick="wso_cart.message.hide();" title="§HIDE_ICON_TITLE§">cancel</i></div>
+        <div id="wso-cart-empty-id" style="display: none;"><span>§CART_EMPTY§</span></div>
+        <table class="wso-rows">
+            <tbody id="wso-cart-rows-id"></tbody>
+        </table>
+        <hr>
+        <div class="wso-total">§TOTAL_TEXT§ &nbsp; <span id="wso-cart-total-amount-id">?</span></div>
+        <div class="wso-command">
+            <input type="button" class="wso-button" value="§BTN_ORDER_TEXT§" title="§BTN_ORDER_TITLE§" onclick="jsWso_OrderCart();">
+        </div>
+    </div>
+</div>
+
+<template id="wso-cart-tmpl-id">
+    <tr id="wso-cart-row-$">
+        <td class="wso-cart-data-unit"><span id="wso-cart-unit-$">?</span></td>
+        <td class="wso-cart-data-qty"><input id="wso-cart-qty-$" type="text" value=""></td>
+        <td class="wso-cart-cmd-update"><i class="material-icons wso-button wso-icon-update" onclick="jsWso_UpdateCart();" title="§UPDATE_ICON_TITLE§">refresh</i></td>
+        <td class="wso-cart-data-desc"><span id="wso-cart-desc-$">?</span></td>
+        <td class="wso-cart-data-amnt"><span id="wso-cart-amnt-$">?</span></td>
+        <td class="wso-cart-cmd-remove"><i id="wso-cart-remove-$" class="material-icons wso-button wso-icon-remove" title="§REMOVE_ICON_TITLE§">cancel</i></td>
+    </tr>
+</template>
+
+§API_RESPONSE§
+
+§CART_DICTIONARY§

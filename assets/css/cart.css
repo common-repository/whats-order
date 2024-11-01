@@ -1,0 +1,91 @@
+﻿div.wso-container {
+}
+div.wso-container table {
+    border-collapse: collapse;
+    width: 100%;
+}
+div.wso-container hr {
+    height: 0;
+}
+div.wso-container img {
+    border: 0;
+}
+div.wso-container input[type=button] {
+}
+div.wso-container .wso-button {
+    cursor: pointer;
+}
+div.wso-container td.wso-cart-data-qty input[type=text] {
+    width: 80px;
+    text-align: right;
+}
+div.wso-container td.wso-cart-data-unit {
+    text-align: center;
+}
+div.wso-container td.wso-cart-cmd-remove {
+    text-align: center;
+}
+
+
+i#wso-cart-icon-id {
+    display: none;
+}
+div#wso-cart-message-id {
+    position: relative;
+    padding: 8px;
+    display: none;
+}
+i#wso-message-dismiss-id {
+    font-size: 16px;
+    color: #787c82;
+    margin-left: 1em;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+i#wso-message-dismiss-id:hover {
+    color: #d9534f;
+}
+div.wso-container i.wso-icon-update:hover {
+    color: #5cb85c;
+}
+div.wso-container i.wso-icon-remove:hover {
+    color: #d9534f;
+}
+
+div#wso-cart-empty-id {
+    padding: 8px;
+    display: none;
+}
+
+div.wso-container table.wso-rows {
+    border: 0;
+    margin-bottom: 0;
+}
+div.wso-container table.wso-rows th, table.wso-rows td {
+    padding: 4px;
+    border: 0;
+    vertical-align: middle;
+}
+div.wso-container td.wso-cart-data-qty {
+    text-align: center;
+}
+div.wso-container td.wso-cart-data-desc {
+    text-align: left;
+}
+div.wso-container td.wso-cart-data-amnt {
+    text-align: right;
+}
+div.wso-container div.wso-total {
+    padding-right: 0.5em;
+    text-align: right;
+    font-weight: bold;
+}
+div.wso-container div.wso-command {
+    margin: 4px;
+    text-align: right;
+}
+div.wso-container div.wso-command input {
+    margin: 4px;
+}
+

@@ -1,0 +1,67 @@
+table.wso {
+    border-collapse: collapse;
+}
+table.bordered, th.bordered, td.bordered {
+    border: 1px solid gray;
+}
+table.rounded4 {
+    border-collapse: separate;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+th.righted, td.righted {
+    text-align: right;
+}
+th.centered, td.centered {
+    text-align: center;
+}
+th.middled, td.middled {
+    vertical-align: middle;
+}
+th.medium, td.medium {
+    text-align: center;
+    vertical-align: middle;
+}
+th.italiced, td.italiced {
+    font-style: italic;
+}
+table.pad16p th, table.pad16p td {
+    padding: 16px;
+}
+table.pad12p th, table.pad12p td {
+    padding: 12px;
+}
+table.pad6p th, table.pad6p td {
+    padding: 6px;
+}
+table.pad4p th, table.pad4p td {
+    padding: 4px;
+}
+table.pad2p th, table.pad2p td {
+    padding: 2px;
+}
+th.pad1, td.pad1 {
+    padding: 1em;
+}
+table.pad1 th, table.pad1 td {
+    padding: 1em;
+}
+
+.note {
+    color: gray;
+    font-style: italic;
+}
+
+td.note ul {
+    list-style: disc;
+    margin: 0;
+    padding-left: 1em;
+}
+td.note ul li {
+    margin: 0;
+}
+
+input.currency {
+    width: 70px;
+    text-align: right;
+}
